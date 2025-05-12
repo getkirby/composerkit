@@ -16,7 +16,7 @@ You can [download the latest version](https://github.com/getkirby/composerkit/ar
 If you are familiar with Git, you can clone Kirby's Composerkit repository from Github.
 
 ```bash
-  git clone https://github.com/getkirby/composerkit.git
+  composer create-project getkirby/composerkit my-kirby-site
 ```
 
 ## What's Kirby?
