@@ -4,19 +4,18 @@
 
 You can learn more about Kirby at [getkirby.com](https://getkirby.com).
 
-### Try Kirby for free
+## Try Kirby for free
 
 You can try Kirby and the Composerkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
 
-### Get going
+## Get going
 
 Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guide/quickstart).
 
-You can [download the latest version](https://github.com/getkirby/composerkit/archive/main.zip) of the Composerkit.
-If you are familiar with Git, you can clone Kirby's Composerkit repository from Github.
+## Installation via Composer
 
 ```bash
-  composer create-project getkirby/composerkit my-kirby-site
+composer create-project getkirby/composerkit my-kirby-site
 ```
 
 ## What's Kirby?
