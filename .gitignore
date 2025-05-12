@@ -26,31 +26,36 @@ Icon
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
 
-# Cache Files
-# ---------------
-
-/storage/cache/*
-!/storage/cache/index.html
-
 # Accounts
 # ---------------
 
-/storage/accounts/*
-!/storage/accounts/index.html
+/data/storage/accounts/*
+!/data/storage/accounts/.gitkeep
 
-# Sessions
+# Cache Files
 # ---------------
 
-/storage/sessions/*
-!/storage/sessions/index.html
-
-# License
-# ---------------
-
-/storage/.license
-
+/data/runtime/cache/*
+!/data/runtime/cache/.gitkeep
 
 # Composer files
 # ---------------
 
 /vendor
+
+# License
+# ---------------
+
+/data/storage/.license
+
+# Logs
+# ---------------
+
+/data/runtime/logs/*
+!/data/runtime/logs/.gitkeep
+
+# Sessions
+# ---------------
+
+/data/runtime/sessions/*
+!/data/runtime/sessions/.gitkeep
