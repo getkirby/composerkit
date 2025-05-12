@@ -29,26 +29,20 @@ Icon
 # Cache Files
 # ---------------
 
-/site/cache/*
-!/site/cache/index.html
-/site/storage/cache/*
-!/site/storage/cache/index.html
+/storage/cache/*
+!/storage/cache/index.html
 
 # Accounts
 # ---------------
 
-/site/accounts/*
-!/site/accounts/index.html
-/site/storage/accounts/*
-!/site/storage/accounts/index.html
+/storage/accounts/*
+!/storage/accounts/index.html
 
 # Sessions
 # ---------------
 
-/site/sessions/*
-!/site/sessions/index.html
-/site/storage/sessions/*
-!/site/storage/sessions/index.html
+/storage/sessions/*
+!/storage/sessions/index.html
 
 # License
 # ---------------
