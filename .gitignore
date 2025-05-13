@@ -18,9 +18,15 @@ Icon
 # Editors
 # (sensitive workspace files)
 # ---------------------------
+
 *.sublime-workspace
 /.vscode
 /.idea
+
+# Composer dependencies
+# ---------------------
+
+/vendor
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -32,30 +38,15 @@ Icon
 /data/storage/accounts/*
 !/data/storage/accounts/.gitkeep
 
-# Cache Files
+# Runtime Files
 # ---------------
 
-/data/runtime/cache/*
+/data/runtime/*
 !/data/runtime/cache/.gitkeep
-
-# Composer files
-# ---------------
-
-/vendor
+!/data/runtime/logs/.gitkeep
+!/data/runtime/sessions/.gitkeep
 
 # License
 # ---------------
 
 /data/storage/.license
-
-# Logs
-# ---------------
-
-/data/runtime/logs/*
-!/data/runtime/logs/.gitkeep
-
-# Sessions
-# ---------------
-
-/data/runtime/sessions/*
-!/data/runtime/sessions/.gitkeep
