@@ -12,7 +12,7 @@ $kirby = new Kirby([
 		'data'     => $data = $base . '/data',
 		'content'  => $data . '/storage/content',
 		'accounts' => $data . '/storage/accounts',
-		'license'  => $data . '/storage/.license',		
+		'license'  => $data . '/storage/.license',
 		'cache'    => $data . '/runtime/cache',
 		'logs'     => $data . '/runtime/logs',
 		'sessions' => $data . '/runtime/sessions',
