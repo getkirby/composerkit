@@ -41,7 +41,7 @@ Icon
 # Runtime Files
 # ---------------
 
-/data/runtime/*
+/data/runtime/*/*
 !/data/runtime/cache/.gitkeep
 !/data/runtime/logs/.gitkeep
 !/data/runtime/sessions/.gitkeep
