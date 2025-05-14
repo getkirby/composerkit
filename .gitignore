@@ -8,7 +8,7 @@ Icon
 # ---------------
 
 /public/media/*
-!/public/media/index.html
+!/public/media/.gitkeep
 
 # Lock files
 # ---------------
